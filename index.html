@@ -4,28 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="favicon.jpg" />
+    <title>CARD DO PABLO</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="content">
-                <h2>01</h2>
-                <h3>Card um</h3>
-                <p>Billie Eilish Pirate Baird O’Connell é uma jovem estrela pop que compõe e canta. A menina prodígio, com uma promissora carreira internacional, está cada vez mais famosa entre o grande público.
-                    A artista nasceu em Los Angeles (Califórnia) no dia 18 de dezembro de 2001.</p>
-                    <a href="#"> Mais informações </a>
-            </div>
+    <nav>
+        <div class="logo">
+            <h1>BILLIE EILISH</h1>
         </div>
-        <div class="card">
-            <div class="content">
-                <h2>02</h2>
-                <h3>Card dois</h3>
-                <p>Billie Eilish Pirate Baird O’Connell é uma jovem estrela pop que compõe e canta. A menina prodígio, com uma promissora carreira internacional, está cada vez mais famosa entre o grande público.
-                    A artista nasceu em Los Angeles (Califórnia) no dia 18 de dezembro de 2001.</p>
-                    <a href="#"> Mais informações </a>
+      
+        <ul id="botoesMenu">
+            <a href="#perfil">
+                <li>
+                    <p>Perfil</p>
+                </li>
+            </a>
+            <a href="#carrinho">
+                <li>
+                    <p>Carrinho</p>
+                </li>
+            </a>
+            
+            <a href="#bio">
+                <li>
+                    <p>Comprados</p>
+                </li>
+            </a>
+        
+        </ul>
+    </nav>
+
+    <div class="content" id="perfil" style="background-color: #1e0044"> 
+        <div class="height-nav"></div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>BILLIE FAMILY</h3>
+                    <img src="images/d.jpg"><br/>
+                    <p>Billie Eilish Pirate Baird O’Connell tem sua familia composta por seu irmão finneas , e sua mãe e seu pai.</p>
+                     
+                </div>
             </div>
+           
         </div>
+    </div>
+    <div class="content" id="carrinho" style="background-color: #1e0044"> 
+        <div class="height-nav"></div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>BIOGRAFIA</h3>
+                    <p>Billie Eilish Pirate Baird O’Connell é uma jovem estrela pop que compõe e canta. A menina prodígio, com uma promissora carreira internacional, está cada vez mais famosa entre o grande público.
+                        A artista nasceu em Los Angeles (Califórnia) no dia 18 de dezembro de 2001.</p>
+                        <a href="#"> Mais informações </a>
+                </div>
+            </div>
+    </div>
+    
+    <div class="content" id="bio" style="background-color: #1e0044"> 
+        <div class="height-nav"></div>
+        <div class="container">
         <div class="card">
             <div class="content">
                 <h2>BILLIE</h2>
@@ -35,11 +75,15 @@
                     Billie Eilish Pirate Baird O’Connell é uma jovem estrela pop que compõe e canta. 
               
                 </p>
-                    <a href="#"> Mais informações </a>
+                 
             </div>
         </div>
     </div>
+  
+
+   
 <script type="text/javascript" src="vanilla.js"></script>
 <script>VanillaTilt.init(document.querySelectorAll(".card"));</script>
+
 </body>
 </html>
